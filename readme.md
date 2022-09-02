@@ -3,9 +3,8 @@
 1. A PDE-constrained problem can be stated as :
 
    $$
-   \min_p f(x, p) \\
-
-   \text{s.t.} g(x, p) = 0 \\
+   \min_p f(x, p) \newline
+   \text{s.t.} g(x, p) = 0
    $$
 
    where $g(x, p)$ is a PDE or sometimes an ODE.
