@@ -4,6 +4,7 @@
 
    $$
    \min_p f(x, p) \\
+
    \text{s.t.} g(x, p) = 0 \\
    $$
 
@@ -29,4 +30,6 @@
    iter 80 cur p -6.95247 x_final -4.00000 energy 0.00000, dfdp 0.00000
    iter 90 cur p -6.95247 x_final -4.00000 energy 0.00000, dfdp 0.00000
    ```
-3. `pde_2order_constraint.py` solves an constrained optimization with second-order ode.
+3. `pde_2order_constraint.py` solves an constrained optimization with second-order ode. Its optimization procedure can be visulized as: 
+
+![](2ode_opt.gif)
